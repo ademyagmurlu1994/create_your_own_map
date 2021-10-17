@@ -9,6 +9,6 @@ if __name__ == "__main__":
     target_node = "E"
     shortest_weight, shortest_path = mp.find_shortes_path(source_node=source_node, target_node=target_node)
     print("### from ", source_node, " to ", target_node, " ###")
-    print("______________________________________")
+    print("_"*30)
     print("shortest weight: ", shortest_weight)
     print("shortest path: ", shortest_path)
